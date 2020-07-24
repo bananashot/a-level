@@ -7,9 +7,11 @@
 
 import random
 
+max_star = 20
+
 def nech_random():
     while True:
-        n = random.randint(3, 20)
+        n = random.randint(3, max_star)
         if n%2:
             return n
         
